@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+
+*{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #f0f0f0;   
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 180px ;
+}
+
+.logo{
+    text-decoration:none ;
+    color: mediumpurple;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.navigation a{
+    color: rgb(36, 16, 77);
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-right: 35px;
+}
+
+.navigation a:hover{
+   color: aquamarine;
+}
+
+section{
+    padding: 100px 100px;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    background: url(images/Img-Dek.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main p{
+    color: #f0f0f0;
+    font-weight: 450;
+    font-size: 1.2em;
+}
+  
+#mark{
+    background-color:rgba(112, 73, 203, 0.774) ;
+    margin: 8px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.main h1{
+    color: aquamarine;
+    font-weight: 700;
+}
+
+
+.main ul{
+    color: #f0f0f0;
+    font-weight: 450;
+    font-size: 1.1em;
+}
+
+.main-btn{
+    color: #f0f0f0;
+    background-color: mediumpurple;
+    text-decoration: none;
+    font-size: 1.18em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    border-radius: 15px;
+    transition: 0.5s ease;
+}
+
+.main-btn:hover{
+    background-color: blueviolet;
+    transform: scale(1.1);
+}
+
+#volunteering{
+    text-align: center; 
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+.title{
+    color: mediumpurple;
+    font-size: 2.3em;
+    font-weight: 790;
+    text-align: center;
+}
+
+#volunteering p{
+    color: rgb(42, 182, 135);
+    font-weight: 450;
+    font-size: 1.3em;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #fff;
+    width: 21em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /16%);
+    border-radius: 10px;
+    padding: 27px;
+    margin: 15px;
+    transform: 0.9s ease;
+    text-align: center;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.info{
+    color: darkblue;
+    text-decoration: none;
+}
+
+.paths{
+    width: 100%;
+    background: url(images/Img-Dek.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+
+.title2{
+    color:  aquamarine;
+    font-size: 2.3em;
+    font-weight: 790;
+    text-align: center;
+}
+
+#t1{
+    color: aquamarine;
+    font-size: 2.3em;
+    font-weight: 790;
+}
+
+#t2{
+    color: hotpink;
+    font-size: 2em;
+    font-weight: 790;
+}
+
+.paths p{
+    color: #f0f0f0;
+    font-weight: 450;
+    font-size: 1.2em;
+}
+
+.t3{
+    color: aquamarine;
+    font-size: 2em;
+    font-weight: 790;
+}
+
+.slider{
+    width: 500px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    padding: 0;
+    width: 2500px;
+    list-style: none;
+    position: relative;
+    animation: sliding 25s ease-in-out infinite ;
+}
+
+.slider ul:hover{
+    animation-play-state: paused;
+}
+
+.slider ul li{
+    float: right;
+}
+
+@keyframes sliding{
+    5%,10%{right: 0;}
+    15%,30%{right: -500px;}
+    35%,50%{right: -1000px;}
+    55%,70%{right: -1500px;}
+    75%,90%{right: -2000px;}
+}
+
+footer{
+    background-color: #ddd6d6fd;
+    color: rgb(12, 12, 92);
+    width: 100%;
+    padding: 1.5em ;
+}
+
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.footer-title span{
+    color: rgb(142, 141, 236);
+}
+
